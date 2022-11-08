@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Etch-a-Sketch-Game</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Xanh+Mono&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Etch - a - Sketch
+        </h1>
+    </header>
+
+    <main>
+
+        <aside>
+
+            <div class="color-picker-section">
+
+                <div>
+                    <input id="pen-color-picker" type="color" value="#67E258">
+                    <button>Pen Color Picker</button>
+                </div>
+
+                <div style="margin-top:20px;">
+                    <input id="bg-picker" type="color" value="#000000">
+                    <button>Board BG Picker</button>
+                </div>
+
+            </div>
+
+
+            <div class="color-btns">
+                <button id="random-color-mode">Random Color Mode</button>
+                <br>
+                <button id="rainbow-mode" style=" margin-top:20px;">Rainbow Mode</button>
+            </div>
+
+            <div class="erasing-btns">
+                <button id="erase-mode">Erase</button>
+                <br>
+                <button id="clear-Btn" style="margin-top:20px;">Clear</button>
+            </div>
+
+
+            <div class="grid-size-sec">
+
+                <div id="row-col-info">
+
+                </div>
+
+                <input type="range" value="16" min="1" max="64" name="gridSize" id="grid-size">
+                <p>
+                    <label for="gridSize">Grid Size</label>
+                </p>
+            </div>
+
+            <section>
+                <span>
+                    Copyright © 2022
+                    <a href="https://github.com/abhishek1025" target="_blank">ABHISHEK</a>
+                </span>
+
+            </section>
+
+        </aside>
+
+        <div id="box-wrapper">
+            <div class="box">
+
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

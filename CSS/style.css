@@ -1,0 +1,151 @@
+body {
+  background-color: black;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Poor Story', cursive;
+  color: #66e258;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 70px;
+}
+
+#box-wrapper {
+  height: 600px;
+  width: 600px;
+}
+
+.box {
+  height: 600px;
+  width: 600px;
+  border: 1px solid white;
+  display: -ms-grid;
+  display: grid;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.small-box {
+  border: 1px solid white;
+}
+
+aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+aside button {
+  letter-spacing: 1.3px;
+}
+
+.color-picker-section button {
+  height: 40px;
+  width: 200px;
+  background: none;
+  color: #F2AA4CFF;
+  border: #F2AA4CFF 1px solid;
+}
+
+.color-picker-section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.color-picker-section input[type="color"] {
+  height: 40px;
+  margin-right: 10px;
+  border: #F2AA4CFF 1px solid;
+  background-color: transparent;
+}
+
+.color-btns button,
+.erasing-btns button {
+  height: 40px;
+  width: 260px;
+  background: none;
+  color: #F2AA4CFF;
+  border: #F2AA4CFF 1px solid;
+}
+
+.color-btns button:focus,
+.erasing-btns button:focus {
+  color: black;
+  background-color: #eae7e7;
+  border: white 1px solid;
+}
+
+.color-btns button:hover,
+.erasing-btns button:hover {
+  cursor: pointer;
+}
+
+.color-btns {
+  margin: 50px 0;
+}
+
+.grid-size-sec {
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+.grid-size-sec label {
+  margin-top: 20px;
+}
+
+.grid-size-sec p {
+  font-size: 20px;
+  color: #F2AA4CFF;
+}
+
+.grid-size-sec input[type='range'] {
+  border-radius: 10px;
+  width: 260px;
+  height: 10px;
+}
+
+.grid-size-sec #row-col-info {
+  margin-bottom: 20px;
+  color: white;
+}
+
+section {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1.7px;
+  margin-top: 20px;
+  font-family: 'Poor Story', cursive;
+}
+
+section img {
+  width: 30px;
+}
+
+section a {
+  color: #66e258;
+}
+/*# sourceMappingURL=style.css.map */
