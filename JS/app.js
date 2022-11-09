@@ -73,7 +73,6 @@ function colorSmallBoxes(e, colorMode) {
 
     if (colorMode === "randomColorMode") {
         bgcolor = randomColorGenerate();
-        console.log(colorMode);
     }
 
     if (colorMode === "rainbowMode") {
