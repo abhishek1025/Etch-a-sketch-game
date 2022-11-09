@@ -21,7 +21,7 @@ const clearBtn = document.querySelector("#clear-Btn")
 //Creating the grid
 function displayGrid(gridSize) {
 
-    let lenghtOfSmallSquare = 600 / gridSize;
+    let lenghtOfSmallSquare = 500 / gridSize;
 
     box.style.gridTemplateColumns = `repeat(${gridSize}, ${lenghtOfSmallSquare}px)`;
 

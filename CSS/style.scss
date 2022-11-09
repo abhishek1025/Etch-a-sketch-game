@@ -15,17 +15,17 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 #box-wrapper {
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
 }
 
 .box {
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
     border: 1px solid white;
     display: grid;
 
@@ -94,11 +94,11 @@ aside {
 }
 
 .color-btns {
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 .grid-size-sec {
-    margin-top: 40px;
+    margin-top: 30px;
     color: white;
     text-align: center;
 
